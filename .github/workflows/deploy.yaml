@@ -1,0 +1,27 @@
+name: Release PDF
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Ensures the entire repo history is checked out
+
+    - name: Get the date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y%m%d')"
+
+    - name: Release PDF
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ steps.date.outputs.date }}
+        files: ./docs/cv.pdf
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

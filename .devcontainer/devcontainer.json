@@ -9,7 +9,7 @@
     ],
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspace",
-    "postCreateCommand": "wget http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh && chmod +x update-tlmgr-latest.sh && ./update-tlmgr-latest.sh -- --upgrade && tlmgr update --self && tlmgr install geometry fancyhdr etoolbox lastpage hyperref sectsty && rm update-tlmgr-latest.sh",
+    "postCreateCommand": "",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -18,11 +18,14 @@
                 "eamodio.gitlens",
                 // Other helpers
                 "shardulm94.trailing-spaces",
+                "streetsidesoftware.code-spell-checker", // spell checker
                 "stkb.rewrap", // rewrap comments after n characters on one line
                 // Other
                 "vscode-icons-team.vscode-icons"
             ],
             "settings": {
+                // Spellcheck settings
+                "cSpell.language": "en-GB",
                 // General settings
                 "files.eol": "\n",
                 // Latex settings

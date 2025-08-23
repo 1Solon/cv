@@ -106,11 +106,12 @@ I am a Software Developer with 1 formal year of experience implementing front- a
 - Public manifests with strategies to ensure secrets remain secret.
 
 #project(
-  name: "TreeMD",
-  url: "https://github.com/1Solon/treemd",
+  name: "Shadow Empire PBEM Bot",
+  url: "https://github.com/1Solon/Shadow-Empire-PBEM-Bot",
 )
-- Go utility that prints a visual directory tree with excludes and depth options.
-- Includes GitHub Actions support to update Markdown file structures automatically.
+- Discord bot to automate play by email turns using filesystem watching and Discord webhooks.
+- Detects current player/turn, validates save filenames, sends reminders, and handles player resignations.
+- Containerized (Docker), configurable via env/.env, and designed for shared folders (Dropbox/Drive/SyncThing).
 
 == Publications
 - Burgess, S., Kraus, A., Trivedi, K., Fornetti, J., Blenet, A., Du, Y., Gordon, D., Tierney, B., Curley, A. (2025). "The Development of a Geographic Information System (GIS) for Public Amenities in Urban Areas". _EduLearn25: 17th Annual International Conference on Education and New Learning Technologies_, Palma, Spain. 30 Jun–2 Jul 2025.
@@ -119,8 +120,8 @@ I am a Software Developer with 1 formal year of experience implementing front- a
 - *Programming Languages*: JavaScript, TypeScript, Java, Python, C++, Go
 - *Technologies*: React, React Native, Next.js, Node.js, Java Spring, Kubernetes, Docker, GitHub Actions, CI/CD, Linux
 
-== Interests & Accomplishments
-- Represented TUD in Games Fleadh 2020 (Robocode), designing and writing "Oberon", a decision-tree-based, linear-targeting virtual tank.
-- CoderDojo Mentor (Dun Laoghaire) — member since 2012; appointed student mentor in 2016 to guide young coders and developers.
-- Skilled public speaker — second place in the Trinity Classics Oratory competition for three consecutive years.
-- Accomplished sailor — achieved Royal Yachting Association Level Three during secondary school.
+// == Interests & Accomplishments
+// - Represented TUD in Games Fleadh 2020 (Robocode), designing and writing "Oberon", a decision-tree-based, linear-targeting virtual tank.
+// - CoderDojo Mentor (Dun Laoghaire) — member since 2012; appointed student mentor in 2016 to guide young coders and developers.
+// - Skilled public speaker — second place in the Trinity Classics Oratory competition for three consecutive years.
+// - Accomplished sailor — achieved Royal Yachting Association Level Three during secondary school.

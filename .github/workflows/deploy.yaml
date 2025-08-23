@@ -36,6 +36,6 @@ jobs:
       with:
         tag_name: ${{ steps.date.outputs.date }}
         name: ${{ steps.date.outputs.date }}
-        files: docs/cv.pdf
+        files: docs/saulburgess_cv.pdf
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

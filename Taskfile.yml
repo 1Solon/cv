@@ -1,0 +1,14 @@
+version: '3'
+
+vars:
+  SRC: main.typ
+  OUT: saulburgess_cv.pdf
+
+tasks:
+  build:
+    desc: Build the CV PDF from Typst ({{.SRC}} -> {{.OUT}})
+    cmds:
+      - typst compile {{.SRC}} {{.OUT}}
+    preconditions:
+      - sh: typst --version
+        msg: "Typst is not installed or not on PATH. Install from https://typst.app/docs/install/"

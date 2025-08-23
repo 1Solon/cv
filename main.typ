@@ -90,7 +90,7 @@ I am a Software Developer with 1 formal year of experience implementing front- a
 == Projects
 
 #project(
-  name: "Magpie — GIS",
+  name: "Magpie - GIS",
   role: "Developer",
   url: "https://github.com/2024-CMPU9010-GROUP-3/magpie",
 )

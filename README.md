@@ -1,13 +1,26 @@
-# My CV
+# My CV (Typst)
 
-This is my CV, written in Latex, this is primarily intended to host both the files themselves, and also my toolchain to make the files.
+This repository contains my CV written in Typst. The current CV source lives in `saulburgess_cv.typ`. The `docs/` folder contains exported PDFs. There are also legacy LaTeX sources kept for reference.
 
-## How I am making this
+## Build (Typst)
 
-I am using a Latex Dev Container running in Docker and VsCode, the initial container was made by [qdm12](https://github.com/qdm12) the repo is [here](https://github.com/qdm12/latexdevcontainer)
+You can compile the Typst CV to PDF with the Typst CLI:
 
-This dev container is a real life saver, so if you can contribute to them. Please do. 
+```powershell
+typst compile "saulburgess_cv.typ" "docs/saulburgess_cv_typst.pdf"
+```
 
-## How to use this
+Notes:
 
-Open the folder in VsCode, and you will be prompted to open the folder in a dev container, click yes, and it will open a container. You should now be able to build the Latex files.
+- The template uses the Typst package `@preview/basic-resume:0.2.8` (fetched automatically by Typst).
+- Paper size is set to `a4` in `main.typ`; change to `us-letter` if needed.
+- The font is set to "New Computer Modern"; adjust in `#show: resume.with(...)` as desired.
+
+## Editing
+
+- Recommended editor: VS Code with the "Tinymist Typst" extension for live preview and diagnostics.
+- Main file: `CV_v2/main.typ`.
+
+## Legacy LaTeX (optional)
+
+The repository still includes LaTeX sources (`SaulBurgess_CV.tex`, etc.) from a previous version. They’re retained for archival purposes and are not the primary build target anymore.

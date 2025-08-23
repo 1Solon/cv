@@ -7,7 +7,7 @@ This repository contains my CV written in Typst. The current CV source lives in 
 You can compile the Typst CV to PDF with the Typst CLI:
 
 ```powershell
-typst compile "saulburgess_cv.typ" "docs/saulburgess_cv_typst.pdf"
+typst compile "saulburgess_cv.typ" "docs/saulburgess_cv.pdf"
 ```
 
 Notes:

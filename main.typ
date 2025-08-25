@@ -25,7 +25,7 @@
 )
 
 == Profile
-I am a Software Developer with 1 formal year of experience implementing front- and back-end services. I have a strong understanding of the full software development lifecycle, including Agile, Test-Driven Development, and DevOps. I build and implement applications using modern technologies such as Go, Node, and React. I also develop and maintain databases and have a strong understanding of software design and architecture principles.
+I am a Software Developer with 2 formal years of experience implementing both front and back-end services, with a strong understanding of the full software development lifecycle, including Agile, Test-Driven Development, and DevOps. I build and implement applications using modern technologies such as Go, Node, and React. I also develop and maintain databases with detailed knowledge of software design and architecture principles.
 
 == Education
 
@@ -59,14 +59,14 @@ I am a Software Developer with 1 formal year of experience implementing front- a
   title: "Research Assistant - NLight",
   location: "Dublin, Ireland",
   company: "Technological University Dublin",
-  dates: dates-helper(start-date: "April 2025", end-date: "November 2025"),
+  dates: dates-helper(start-date: "April 2025", end-date: "Current"),
 )
 
 #work(
   title: "Technical Analyst",
   location: "Grand Canal Quay, Dublin",
   company: "Accenture",
-  dates: dates-helper(start-date: "May 2023", end-date: "Sep 2023"),
+  dates: dates-helper(start-date: "May 2023", end-date: "Oct 2023"),
 )
 // - Focused on software development and application development.
 
@@ -118,10 +118,10 @@ I am a Software Developer with 1 formal year of experience implementing front- a
 
 == Skills
 - *Programming Languages*: JavaScript, TypeScript, Java, Python, C++, Go
-- *Technologies*: React, React Native, Next.js, Node.js, Java Spring, Kubernetes, Docker, GitHub Actions, CI/CD, Linux
+- *Technologies*: React, React Native, Next.js, Node.js, Java Spring, Kubernetes, Docker, GitHub Actions, CI/CD, Linux, PyTorch, Gymnasium
 
 // == Interests & Accomplishments
-// - Represented TUD in Games Fleadh 2020 (Robocode), designing and writing "Oberon", a decision-tree-based, linear-targeting virtual tank.
+// - Represented TuD in Games Fleadh 2020 (Robocode), designing and writing "Oberon", a decision-tree-based, linear-targeting virtual tank.
 // - CoderDojo Mentor (Dun Laoghaire) — member since 2012; appointed student mentor in 2016 to guide young coders and developers.
 // - Skilled public speaker — second place in the Trinity Classics Oratory competition for three consecutive years.
 // - Accomplished sailor — achieved Royal Yachting Association Level Three during secondary school.
